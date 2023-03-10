@@ -1,0 +1,231 @@
+
+
+.body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    background-color:#0b0b0b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    background-color: #0e0f0f;
+    position:fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+.nav_logo {
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    padding-left: 50px;
+    font-size: 1.5em;
+}
+
+.main_navbar {
+    list-style: none;
+    padding-top: 16px;
+    display: flex;
+}
+
+.main_navbar a {
+    text-decoration: none;
+    padding: 5px;
+    margin: 0 30px;
+}
+
+.nav_item a {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: aliceblue;
+}
+
+.nav_item a:hover {
+    color: #6EA8FE;
+}
+
+.second_nav a {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: aliceblue;
+    text-decoration: none;
+    padding-right: 50px;
+}
+
+.carousel-inner{
+    width: 100px;
+    height: 100vh;
+    object-fit: none;
+    object-position:20% 10%;
+}
+
+.hero-img {
+  overflow: hidden;
+}
+
+
+/*================================BATAS SUCI=======================*/
+
+.home-content{
+  background-color: #1A1F23;
+}
+
+.heading{
+
+  text-align: center;
+  font-size: 30px;
+  color: #ffffff;
+  margin-top: 30px;
+  margin-left: 450px;
+  padding: 20px;
+  width: 500px;
+  background: rgba(36, 36, 122, 0.081);
+
+}
+
+.heading span{
+  color:rgb(72, 69, 239);
+}
+
+
+.flex-container {
+    display: flex;
+    align-items: stretch;
+    border-radius: 100px;
+    margin-left: 150px;
+    margin-right: 50px;
+    
+  }
+
+
+  .flex-container>div {
+    border-radius: 250px;
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+    font-size: large;
+    border: #6EA8FE;
+
+  }
+
+
+
+  .flex-container .h6{
+    text-align: center;
+    font-size: large;
+    border: #6EA8FE;
+
+  }
+
+  .cont2 {
+    border-radius: 50px;
+  }
+
+  .cont3 {
+    border-radius: 50px;
+  }
+
+  .cont4 {
+    border-radius: 50px;
+  }
+
+
+  .top h4 {
+    margin-top: 300px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size:50px;
+    color: #1A1F23;
+}
+
+
+.top .service-item:hover .icon img {
+    margin-top: -20px;
+}
+  
+  
+  .top .service-item .icon {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: #7a6ad8;
+    border-radius: 50%;
+    right: -20px;
+    top: -20px;
+    line-height: 20px;
+  }
+  
+  .top .service-item .icon img {
+    max-width: 40px;
+    transition: all .2s;
+  }
+  
+  .top .service-item {
+    border-radius: 25px;
+    width: 350px;
+    height: 400px;
+    margin-bottom: 30px;
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+  
+
+  .top .service-item p {
+    color: #4a4a4a;
+    margin-bottom: 25px;
+  }
+  
+.container {
+  display: flex;
+}
+
+.service-item {
+  position: relative;
+  background-image: url('images/dino.jpeg');
+  width: 100%;
+  height: auto;
+  object-fit: fill;
+  position: relative;
+
+}
+
+.rekomen h5{
+  margin-top: 40px;
+  text-align: center;
+  font-size: 50px;
+  
+
+}
+
+.review h6{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.button-review{
+  /* display: flex; */
+  justify-content: center; 
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  /* display: inline-block; */
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 10em;
+}
